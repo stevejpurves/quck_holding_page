@@ -1,9 +1,10 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: #222;
+    color: #000;
     font-size: 1em;
     line-height: 1.4;
+
 }
 
 ::-moz-selection {
@@ -57,7 +58,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px 'Open Sans Condensed', Arial;
 }
 
 .wrapper {
@@ -88,6 +89,25 @@ body {
     color: white;
 }
 
+.circular {
+    border: solid #e44d26 5px;
+    /*background-color: #f16529;*/
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hellotext {
+    position: relative;
+    top:50%;
+    margin-top: -4em;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
 /* ==============
     MOBILE: Menu
    ============== */
@@ -98,7 +118,7 @@ nav ul {
     list-style-type: none;
 }
 
-nav a {
+nav a, a {
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
@@ -107,8 +127,8 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: white;
-    background: #e44d26;
+    color: black;
+    /*background: #e44d26;*/
 }
 
 nav a:hover,
